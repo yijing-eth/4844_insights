@@ -8,7 +8,6 @@ import time
 client = clickhouse_connect.get_client(
     host='127.0.0.1', username='default', password='', port=8123)
 
-# url = 'https://mainnet.infura.io/v3/a0a70c81660f4922981e6b405bb4c8b8'
 url = 'http://localhost:8545'
 
 def insert_rpc_res(data):
